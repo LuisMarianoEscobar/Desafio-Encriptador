@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Escritorio/imagenes"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Desafio-Encriptador"
+	}
+}
