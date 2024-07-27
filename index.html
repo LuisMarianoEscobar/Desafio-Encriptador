@@ -3,15 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Encriptador de texto </title>
 </head>
-<body> // Encabezado?//
+<body>
 
     <header>
         <a href=""></a>
-        <img src="./imagenes/logo.svg" class="logo">
+        <img src="./imagenes/logo.svg"  alt="Logo Alura"  class="logo">
     </header>
-    
-    
+    <main>
+        <section class="Encriptador">
+            <textarea name="Encriptar" placeholder="Ingrese texto" ></textarea>
+            <div class="Aviso">
+                <img src="./imagenes/aviso.svg" alt="Aviso" class="img-aviso">
+                <p class="texto-sviso">Solo letras minúsculas y sin acento</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">Encriptar</button>
+                <button type="submit" class="btn-desencriptar">Desencriptar</button>
+            </div>
+
+        </section>
+        <section class=" tarjeta">
+            <div class="tarjeta-contenedor">
+                <img src="./imagenes/muñeco.svg" alt="img-muñeco">
+                <p class="primer-texto">Ningún mensaje fue encontrado</p>
+                <p class="segundo-texto">Ingrese el texto que quiere Encriptar o Desencriptar  </p>
+            </div>
+            <textarea type="mensaje" class="Evaluar" readonly></textarea>
+            <button type="submit" class="btn-copiar" >Copiar</button>
+
+        </section>
+    </main>
+    <footer>
+        <p class="copyright">&copy; Copyright 2024 - Encriptador de  Texto - Desarrolado por Mariano Escobar</p> 
+        <a href="#" rel="">
+            <img src="./imagenes/github.svg" alt="img-gibhub"  class="github">
+        </a>
+        <a href="#" rel="">
+            <img src="./imagenes/linkedin.svg" alt="linkedin" class="linkedin">
+        </a>
+
+        
+
+    </footer>
 </body>
 </html>
